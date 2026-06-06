@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pluriversity.org/campaigning-for-change/sitemap.xml
