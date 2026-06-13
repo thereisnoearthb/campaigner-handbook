@@ -71,6 +71,7 @@ async function initViewer() {
     const showRight = pagesPerSpread === 2 && rightNum <= total;
 
     spread.classList.toggle('is-single', !showRight);
+    spread.classList.toggle('has-dummy', pagesPerSpread === 2 && leftNum === 1);
 
     await renderPage(leftNum, leftCanvas);
     if (showRight) await renderPage(rightNum, rightCanvas);

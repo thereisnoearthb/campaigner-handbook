@@ -385,6 +385,7 @@ p { margin: 0 0 1em; }
   box-shadow: 0 4px 14px rgba(0,0,0,0.12);
 }
 .pdf-spread.is-single .pdf-page-right { display: none; }
+.pdf-spread.has-dummy .pdf-page-left { box-shadow: none; }
 
 .pdf-loading {
   position: absolute;
